@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+body {
+   background-image: url(img/worldMap2.jpg);
+   background-repeat:no-repeat;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+   background-position:center;
+}
+
+p {
+  max-width: 90%;
+}
+
+.start-page, .answer-feedback-page, .final-feedback-page {
+  /*padding-top: 450px;
+  padding-left: 860px; */
+  padding-top: 20%;
+  padding-left: 30%;
+}
+
+.question-picture {
+  -webkit-box-shadow:
+        0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #fff,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 17px #555;
+  
+     -moz-box-shadow:
+        0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #fff,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 17px #555;
+  
+          box-shadow:
+        0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #fff,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 17px #555;
+}
+
+.question-picture{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 30%;
+  width: 40%;
+}
+
+.question-info{
+  padding-left: 30%;
+  width: 74%;
+} 
+
+.user-was-incorrect {
+  font-size: 50px;
+  color: red;
+} 
+
+button {
+  color: black;
+}
